@@ -41,12 +41,12 @@ const RESOURCES = {"icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "assets/shaders/ink_sparkle.frag": "ecc85a2e95f5e9f53123dcaf8cb9b6ce",
 "flutter.js": "83d881c1dbb6d6bcd6b42e274605b69c",
 "manifest.json": "2e31ad05240e93f9b64057355ee31061",
-"index.html": "c9686b94a7305e5f0bd2c8d325f438cb",
-"/": "c9686b94a7305e5f0bd2c8d325f438cb",
+"index.html": "8031fe8aaaf24c6bfdc9ae14f7ed58f9",
+"/": "8031fe8aaaf24c6bfdc9ae14f7ed58f9",
 "version.json": "7ed1fc81064dea554554dadc8f56b5d6",
-"flutter_bootstrap.js": "7c6a0261c63c1afc21ed050a68b9e29d",
+"flutter_bootstrap.js": "14fe08c4de17975f9ae8a284aba8cae3",
 "CNAME": "1aae66e2b52cbdc8d696c4a908be4d52",
-"main.dart.js": "b148b9ee011c06c9810ea7483e146504",
+"main.dart.js": "1537d87c71084b60129a1f8c29a4782e",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796"};
 // The application shell files that are downloaded before a service worker can
 // start.
