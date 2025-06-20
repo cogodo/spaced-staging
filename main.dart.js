@@ -98694,7 +98694,7 @@ s.ak5()
 return s},
 $S:646}
 A.aI9.prototype={
-$1(a){var s,r="https://spaced-staging.onrender.com",q=new A.fn(new A.eS(),B.bN,A.b([],t.SU),A.b([],t.MW),A.b([],t.s9),$.ae()),p=new A.apB(r)
+$1(a){var s,r="https://spaced-1.onrender.com",q=new A.fn(new A.eS(),B.bN,A.b([],t.SU),A.b([],t.MW),A.b([],t.s9),$.ae()),p=new A.apB(r)
 if(B.c.fD(r,"/"))A.a_(A.b2("baseUrl should not end with a slash",null))
 p.c=A.aKQ("session_api")
 p.d=A.aKQ("popular_topics")
