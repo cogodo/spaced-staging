@@ -102665,7 +102665,7 @@ s=p}while(true)switch(s){case 0:if(a5.length===0)throw A.e(A.b2("Topics list can
 if(a3<1)throw A.e(A.b2("maxTopics must be at least 1",null))
 if(a2<1)throw A.e(A.b2("maxQuestions must be at least 1",null))
 if(a4!=="custom_topics"&&a4!=="due_items")throw A.e(A.b2('sessionType must be either "custom_topics" or "due_items"',null))
-m=A.du(n.a+"/start_session",0,null)
+m=A.du(n.a+"/api/v1/start_session",0,null)
 e=t.N
 l=A.a8(["session_type",a4,"topics",a5,"max_topics",a3,"max_questions",a2],e,t.K)
 p=4
@@ -102715,7 +102715,7 @@ s=p}while(true)switch(s){case 0:a1=B.c.cS(a3)
 if(a1.length===0)throw A.e(A.b2("sessionId cannot be empty",null))
 e=B.c.cS(a4)
 if(e.length===0)throw A.e(A.b2("userInput cannot be empty",null))
-m=A.du(n.a+"/answer",0,null)
+m=A.du(n.a+"/api/v1/chat/answer",0,null)
 d=t.N
 l=A.a8(["session_id",a1,"user_input",e],d,d)
 p=4
