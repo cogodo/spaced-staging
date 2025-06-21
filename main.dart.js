@@ -98445,7 +98445,7 @@ l.push(A.j0(A.bd(j,j,B.o,j,j,new A.bz(j,j,j,j,A.b([new A.dJ(0,B.cm,A.l(a).ax.b.a
 return A.fS(j,A.hz(A.aIb(A.pj(B.ad,l,B.J,B.d1),m),B.bx,j,j,j,j),B.W,!1,j,j,j,j,j,j,j,j,j,j,j,j,j,i.gak8(),j,j,j,j,j,j)},
 $S:669}
 A.awS.prototype={
-$3(a,b,c){var s,r,q,p=null,o=b.d!=null,n=o?"BACK TO APP":"LOGIN",m=o?B.hJ:B.I1
+$3(a,b,c){var s,r,q,p=null,o=b.d!=null,n=o?"BACK TO APP":"GET SPACED",m=o?B.hJ:B.I1
 o=A.b0(30)
 s=A.b([new A.dJ(0,B.cm,A.l(a).ax.b.aL(0.3),B.O7,20)],t.sq)
 r=A.l(a)
