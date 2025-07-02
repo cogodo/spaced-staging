@@ -99830,7 +99830,7 @@ return s},
 $S:674}
 A.akC.prototype={
 $1(a){var s,r,q,p=new A.fw(new A.n2(),B.cf,A.b([],t.SU),A.b([],t.MW),A.b([],t.s9),$.ah()),o=A.VT().gkH()
-if(B.c.p(o,"staging"))s="https://api.staging.getspaced.app"
+if(o==="staging.getspaced.app")s="https://api.staging.getspaced.app"
 else s=o==="localhost"||o==="127.0.0.1"?"http://localhost:8000":"https://api.getspaced.app"
 p.Q=A.aSt(s)
 r=$.dd
@@ -103261,56 +103261,55 @@ break
 case 1:return A.p(q,r)}})
 return A.q($async$n_,r)},
 uO(a,b,c,d,e){return this.a5r(a,b,c,d,e)},
-a5r(a5,a6,a7,a8,a9){var s=0,r=A.r(t.h_),q,p=2,o=[],n=this,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4
-var $async$uO=A.n(function(b1,b2){if(b1===1){o.push(b2)
-s=p}while(true)switch(s){case 0:if(a9.length===0)throw A.e(A.b4("topics cannot be empty",null))
-if(a6<1)throw A.e(A.b4("maxTopics must be at least 1",null))
-if(a5<1)throw A.e(A.b4("maxQuestions must be at least 1",null))
-if(a8!=="custom_topics"&&a8!=="due_items")throw A.e(A.b4('sessionType must be either "custom_topics" or "due_items"',null))
+a5r(a4,a5,a6,a7,a8){var s=0,r=A.r(t.h_),q,p=2,o=[],n=this,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3
+var $async$uO=A.n(function(b0,b1){if(b0===1){o.push(b1)
+s=p}while(true)switch(s){case 0:if(a8.length===0)throw A.e(A.b4("topics cannot be empty",null))
+if(a5<1)throw A.e(A.b4("maxTopics must be at least 1",null))
+if(a4<1)throw A.e(A.b4("maxQuestions must be at least 1",null))
+if(a7!=="custom_topics"&&a7!=="due_items")throw A.e(A.b4('sessionType must be either "custom_topics" or "due_items"',null))
 m=A.d7(n.a+"/chat/start_session",0,null)
 e=$.dd
 d=(e==null?$.dd=$.hI():e).hG("[DEFAULT]")
 A.cR(d,$.fL(),!0)
-c=A.abG(new A.ez(d)).gff()
-if(c==null)throw A.e(A.d1("User not authenticated",null))
-b=a7==null?B.e.k(Date.now()):a7
+if(A.abG(new A.ez(d)).gff()==null)throw A.e(A.d1("User not authenticated",null))
+c=a6==null?B.e.k(Date.now()):a6
 e=t.N
-l=A.a8(["id",b,"userUid",c.a.c.a.a,"topics",a9,"session_type",a8,"max_topics",a6,"max_questions",a5,"session_id",b],e,t.K)
+l=A.a8(["id",c,"topics",a8,"session_type",a7,"max_topics",a5,"max_questions",a4,"session_id",c],e,t.K)
 p=4
-a=n.c
-a===$&&A.a()
+b=n.c
+b===$&&A.a()
 s=7
-return A.t(a.o3(new A.aqC(n,m,l),t.J),$async$uO)
-case 7:k=b2
-if(k.b===200)try{a=k
-j=t.a.a(B.aE.pI(A.hd(A.hc(a.e)).cT(a.w),null))
-a=j
-A.av(a.h(0,"session_id"))
-if(A.a6(a.h(0,"next_question"))==null)A.a6(a.h(0,"message"))
-a0=A.a6(a.h(0,"message"))
-if(a0==null)a0=""
-a1=t.kc.a(a.h(0,"topics"))
-e=A.dU(a1==null?[]:a1,!0,e)
-a=A.av(a.h(0,"topic_id"))
-q=new A.V5(a0,e,a)
+return A.t(b.o3(new A.aqC(n,m,l),t.J),$async$uO)
+case 7:k=b1
+if(k.b===200)try{b=k
+j=t.a.a(B.aE.pI(A.hd(A.hc(b.e)).cT(b.w),null))
+b=j
+A.av(b.h(0,"session_id"))
+if(A.a6(b.h(0,"next_question"))==null)A.a6(b.h(0,"message"))
+a=A.a6(b.h(0,"message"))
+if(a==null)a=""
+a0=t.kc.a(b.h(0,"topics"))
+e=A.dU(a0==null?[]:a0,!0,e)
+b=A.av(b.h(0,"topic_id"))
+q=new A.V5(a,e,b)
 s=1
-break}catch(b0){i=A.T(b0)
+break}catch(a9){i=A.T(a9)
 e=A.d1("Invalid response format: "+A.k(i),null)
 throw A.e(e)}else{e=k
 if(A.hd(A.hc(e.e)).cT(e.w).length!==0){e=k
-a3=A.hd(A.hc(e.e)).cT(e.w)}else a3="No error details"
-h=a3
+a2=A.hd(A.hc(e.e)).cT(e.w)}else a2="No error details"
+h=a2
 e=A.d1("Failed to start session: "+A.k(h),k.b)
 throw A.e(e)}p=2
 s=6
 break
 case 4:p=3
-a4=o.pop()
-e=A.T(a4)
+a3=o.pop()
+e=A.T(a3)
 if(e instanceof A.my){g=e
 throw A.e(A.d1("Service temporarily unavailable: "+g.a,null))}else if(e instanceof A.Hk)throw A.e(A.d1("Session start timed out. This may happen with complex topics. Please try again or select fewer topics.",null))
 else{f=e
-if(f instanceof A.fZ)throw a4
+if(f instanceof A.fZ)throw a3
 throw A.e(A.d1("Network error: "+A.k(f),null))}s=6
 break
 case 3:s=2
