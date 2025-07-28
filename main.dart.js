@@ -33318,8 +33318,7 @@ ajP:function ajP(a){this.a=a},
 ajN:function ajN(a){this.a=a},
 ko:function ko(a,b){var _=this
 _.a=a
-_.b=!1
-_.c=!0
+_.c=_.b=!0
 _.U$=0
 _.a0$=b
 _.a1$=_.aG$=0},
@@ -113841,7 +113840,7 @@ case 6:n=b
 l=A.fY(J.af(n.a,"voice_enabled"))
 o.b=l!==!1
 l=A.fY(J.af(n.a,"stt_enabled"))
-o.c=l===!0
+o.c=l!==!1
 o.N()
 q=1
 s=5
