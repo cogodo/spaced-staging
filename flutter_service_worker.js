@@ -3,18 +3,17 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "acda4c2ee03c0ae42ffdc078d8274ebb",
+const RESOURCES = {"assets/AssetManifest.bin": "7a070be16c843eee11e9fd9ecea64fa2",
 "assets/assets/images/logo_purple.png": "3a499cb678da28ba0ebbb344697b7584",
-"assets/assets/images/logo_transparent_large.png": "a1f61727ba6408bf2911e0b7b739192e",
 "assets/assets/fonts/chiron_sung_hk/ChironSungHK-Light.ttf": "472d4922497f92ff991e41ca3b070c52",
 "assets/assets/fonts/chiron_sung_hk/ChironSungHK-Bold.ttf": "237da46512589c9cead60d26701f1f0f",
 "assets/assets/fonts/chiron_sung_hk/ChironSungHK-Medium.ttf": "dbb78ca25fb17e5c8d177317e61fc989",
 "assets/assets/fonts/chiron_sung_hk/ChironSungHK-Regular.ttf": "d3268cbe131e9bccd26bcd52d88b8e9b",
 "assets/shaders/ink_sparkle.frag": "ecc85a2e95f5e9f53123dcaf8cb9b6ce",
 "assets/FontManifest.json": "f87d49d1cc4ef09830fd847d435f756f",
-"assets/AssetManifest.json": "3d1f1087a8c629bbbe1bc0ddd8b44bb9",
+"assets/AssetManifest.json": "6d75c6ed123d1429adfc82d6f3786ea6",
 "assets/fonts/MaterialIcons-Regular.otf": "bab1478bcb0c5bb5d843f5bc6c641df3",
-"assets/AssetManifest.bin.json": "bcef6194dce0ba611924f4f2764fb58a",
+"assets/AssetManifest.bin.json": "bacdfd2162d781f5b77db7896e1677ad",
 "assets/web/icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "assets/web/icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "assets/web/icons/favicon_circle.ico": "a3d667089cc6d408245e8a00e0b8a41b",
@@ -29,7 +28,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "acda4c2ee03c0ae42ffdc078d8274ebb
 "version.json": "7ed1fc81064dea554554dadc8f56b5d6",
 "manifest.json": "2e31ad05240e93f9b64057355ee31061",
 "CNAME": "1aae66e2b52cbdc8d696c4a908be4d52",
-"flutter_bootstrap.js": "56c16fcdf69e7f3e84094cdffd3665a4",
+"flutter_bootstrap.js": "1a7c7a83ee77bbb4ed3f4b7a0f99ac20",
 "canvaskit/skwasm.wasm": "1c93738510f202d9ff44d36a4760126b",
 "canvaskit/canvaskit.wasm": "a37f2b0af4995714de856e21e882325c",
 "canvaskit/skwasm.js.symbols": "9fe690d47b904d72c7d020bd303adf16",
@@ -46,8 +45,8 @@ const RESOURCES = {"assets/AssetManifest.bin": "acda4c2ee03c0ae42ffdc078d8274ebb
 "fonts/chiron_sung_hk/ChironSungHK-Medium.ttf": "dbb78ca25fb17e5c8d177317e61fc989",
 "fonts/chiron_sung_hk/ChironSungHK-Regular.ttf": "d3268cbe131e9bccd26bcd52d88b8e9b",
 "404.html": "386a9513b9cc944465595e6216a87b22",
-"index.html": "b020a5c742144ae52002a5c82d3fe32f",
-"/": "b020a5c742144ae52002a5c82d3fe32f",
+"index.html": "6e92eb8b588d91706fb3e2ec87ac02e3",
+"/": "6e92eb8b588d91706fb3e2ec87ac02e3",
 "favicon.png": "3a499cb678da28ba0ebbb344697b7584",
 "flutter.js": "83d881c1dbb6d6bcd6b42e274605b69c",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
@@ -59,7 +58,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "acda4c2ee03c0ae42ffdc078d8274ebb
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "privacy-policy.html": "b96ee397917efffcae2f38e05ad4cb42",
 "_headers": "37579b02b98711ae5b9f5d3461caf6c6",
-"main.dart.js": "7d99aadaf21141b1db2e957499245860"};
+"main.dart.js": "05b6fd0a0fd123c8be2bd69e0f4ddd91"};
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",
